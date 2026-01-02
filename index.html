@@ -16,14 +16,18 @@
             kiểm tra branch trên cả máy chủ git:
                 git branch -a = git branch --all
 
-            tạo 1 branch mới: 
+            1. tạo 1 branch mới: 
                         git branch -c ten_nhanh
                     => code ở branch main như nào thì bên y nguyên sang branch mới tạo này
 
-            để chuyển sang branch mới tạo:
+            2. để chuyển sang branch mới tạo:
                         git checkout ten_nhanh_vua_tao
 
             nhớ commit để lưu thay đổi mà bạn vừa sửa lại:))
+
+
+            Combine cả bước 1 và 2: tạo và chuyển sang nhánh mới luôn:
+                        git checkout -b ten_nhanh
 
         dùng lệnh để đẩy nhánh lên máy chủ git (remote):
 
